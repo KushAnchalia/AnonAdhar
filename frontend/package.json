@@ -1,0 +1,26 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@types/react": "^18.3.12",
+    "next-env": "^1.1.1",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "@anon-aadhaar/core": "^2.4.0",
+    "@anon-aadhaar/react": "^2.4.0",
+    "ethers": "^6.13.4",
+    "next": "^15.0.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}

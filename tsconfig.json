@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "module": "NodeNext",  // Ensure the module option is set to NodeNext
+      "moduleResolution": "NodeNext",  // Ensure moduleResolution is also set to NodeNext
+      "target": "ES2020",  // Or any other target version you prefer
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "strict": true
+    },
+    "include": [
+      "hardhat.config.ts",
+      "scripts/**/*",
+      "test/**/*"
+    ]
+  }
+  
